@@ -1,0 +1,6 @@
+Credentials cache: API:5878
+        Principal: vgnylyan@UNIT.UA
+
+  Issued                Expires               Principal
+Sep 18 14:56:56 2017  Sep 19 00:56:56 2017  krbtgt/UNIT.UA@UNIT.UA
+Sep 18 17:42:28 2017  Sep 19 00:56:56 2017  ldap/ldap.unit.ua@UNIT.UA
