@@ -1,0 +1,110 @@
+
+.header {
+	background-color: #80f2dd;
+	height: 300px;
+	display: flex;
+	color: #5636a0;
+
+}
+
+.buyme{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	font-family: Helvetica;
+	position: relative;
+	font-size: 300%;
+	padding-left: 100px;
+}
+
+.login{
+	text-decoration: none;
+	position: absolute;
+	top: -80px;
+    left: -350px;
+	border: 5px solid;
+	background-color: no;
+	width: 200px;
+	height: 50px;
+	font-size: 250%;
+	color: white;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.register{
+	text-decoration: none;
+	position: absolute;
+	top: -80px;
+    left: -90px;
+	background-color: no;
+	border: 5px solid;
+	color: white;
+	width: 200px;
+	height: 50px;
+	font-size: 250%;
+    font-family: Helvetica;
+      text-align: center;
+}
+
+.username{
+	text-decoration: none;
+	position: absolute;
+	top: -62px;
+    left: -400px;
+	background-color: no;
+	width: 500px;
+	height: 50px;
+	font-size: 250%;
+	color: white;
+    font-family: Helvetica;
+}
+
+.logout{
+	text-decoration: none;
+	position: absolute;
+    top: -80px;
+    left: -90px;
+	background-color: no;
+	border: 5px solid;
+	text-align: center;
+	color: white;
+	width: 200px;
+	height: 50px;
+	font-size: 250%;
+    font-family: Helvetica;
+}
+
+.tocart{
+	position: absolute;
+    top: 80px;
+    left: 30px;
+	font-size: 30px;
+	font-family: Helvetica;
+	margin: 0;
+	color: #80f2dd;
+}
+
+.cart img{
+	width: 150px;
+}
+
+
+.right {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	position: relative;
+}
+
+.under_cart{
+	position: relative;
+		display: flex;
+}
+
+body {
+	width: 1620px;
+    margin: 0 auto;
+    font-weight: bold;
+}

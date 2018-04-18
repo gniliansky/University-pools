@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Java Script</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+<body>
+	<input id="first_nb" placeholder="Enter first number"/>
+	<br /><br />
+	<select id="operation">
+		<option value="+"> + </option>
+		<option value="-"> - </option>
+		<option value="*"> * </option>
+		<option value="/"> / </option>
+		<option value="%"> % </option>
+	</select>
+	<br /><br />
+	<input  id="second_nb" placeholder="Enter second number"/>
+	<br /><br />
+	<input id="button" type="submit" value="Try me!">
+	<script>
+		$( document ).ready(function() {
+			$( "#button" ).click(function() {
+				var first_value = parseInt($("#first_nb").val());
+				var operation_value = $("#operation").val();
+				var second_value = parseInt($("#second_nb").val());
+
+				if (isNaN(first_value) || isNaN(second_value) || first_value < 0 || second_value < 0) {
+					alert("Error :(");
+				}
+				else if (second_value === 0 && (operation_value === "/" || operation_value === "%")) {
+					console.log("It’s over 9000!");
+					alert("It’s over 9000!");
+				}
+				else {
+					var result = eval(first_value + operation_value + second_value);
+					console.log(result);
+					alert(result);
+				}
+				var timerId = setInterval(function() {alert("Please, use me...");}, 30000);
+			});
+		});
+	</script>	
+</body>
+</html>

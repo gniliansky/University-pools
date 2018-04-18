@@ -1,0 +1,63 @@
+.page {
+	width: 1620px;
+	background-color: #80F2DD;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+table {
+	width: 1620px;
+
+}
+
+#table tr td {
+	border: 3px solid black;
+	height: 38px
+}
+
+.char1 {
+	text-align: center;
+}
+
+.char2 {
+	text-align: left;
+}
+.char3 {
+	text-align: center;
+}
+.char4 {
+	text-align: center;
+}
+
+.nbr {
+	font-size: 75%;
+	text-align: left;
+}
+h1 {
+	color: white;
+	font-size: 300%;
+	text-align: center;
+}
+
+.butten {
+	height: 28px;
+	width: 135px;
+	border: 1px solid;
+	border-color: rgb(167, 164, 165);
+	background-color: rgb(228, 228, 228);
+	font-size: 13px;
+	font-family: arial;
+	border-radius: 2px;
+}
+
+.error1 {
+	height:  5px;
+	color: red;
+}
+.thank {
+	height:  5px;
+	color: white;
+}

@@ -1,0 +1,152 @@
+body {
+	background-color: #505050;
+}
+.header {
+	background: #909090;
+	width:1420px;
+	height:135px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 0;
+	margin-top: 20px;
+	margin-left: 240px;
+}
+.menu {
+	background: #909090;
+	width:140px;
+	height:425px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 0;
+	float: left;
+}
+#day {
+	width: 420px;
+	height: 110px;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+}
+#loupe {
+	width: 255px;
+	height: 140px;
+	margin-left: 700px;
+	margin-top: 15px;
+	float: left;
+}
+#reload {
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin-top: 9px;
+	margin-right: 9px;
+}
+#close {
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin-top: 75px;
+	margin-right: 9px;
+}
+#boton {
+	width: 70px;
+	height: 70px;
+	margin-left: 32px;
+	margin-top: 15px;
+}
+#hand {
+	width: 70px;
+	height: 70px;
+	margin-left: 32px;
+}
+#eyes {
+	width: 70px;
+	height: 70px;
+	margin-left: 32px;
+	margin-top: 5px;
+	border: 5px solid red;
+}
+#outil {
+	width: 70px;
+	height: 70px;
+	margin-left: 32px;
+}
+#chat {
+	width: 70px;
+	height: 70px;
+	margin-left: 32px;
+}
+.cluster {
+	background: #909090;
+	width:1020px;
+	height:580px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 0;
+	margin-left: 30px;
+	float: left;
+}
+#cluster42 {
+	width: 1000px;
+	height: 560px;
+	margin-left: 10px;
+	margin-top: 10px; 
+}
+.right {
+	background: #909090;
+	width:140px;
+	height:425px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 0;
+	margin-left: 30px;
+	float: left;
+}
+#book {
+	width: 70px;
+	height: 95px;
+	margin-left: 35px;
+	margin-top: 15px;
+}
+#tower {
+	width: 70px;
+	height: 55px;
+	margin-left: 35px;
+	margin-top: 2px;
+}
+#brick {
+	width: 120px;
+	height: 70px;
+	margin-left: 10px;
+	margin-top: 2px;
+	background-image: url("resources/brick.jpg");
+	background-repeat: repeat;
+}
+.text {
+	background: rgb(166, 251, 150);
+	width:520px;
+	height:170px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 0;
+	margin-left: 195px;
+	margin-top: -75px;
+	float: left;
+}
+#text1 {
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: arial;
+
+}
+#botton {
+	height: 20px;
+	border: 1px solid;
+	border-color: rgb(167, 164, 165);
+	background-color: rgb(228, 228, 228);
+	font-size: 13px;
+	font-family: arial;
+	width: 80px;
+	border-radius: 2px;
+}
+#field {
+	height: 15px;
+	border: 2px inset;
+	border-color: rgb(239, 239, 239);"
+}

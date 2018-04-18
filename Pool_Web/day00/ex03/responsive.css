@@ -1,0 +1,34 @@
+body { 
+	background: url(http://expres.ua/gfx/news/himichni_elementy.jpg);
+}
+table {
+	width: 80%;
+}
+#tabl2 tr td {
+	border: 5px solid black;
+	width: 9.0909%;
+	height: 38px;
+}
+#tabl3 tr td {
+	border: 5px solid black;
+	width: 6.6666%;
+	height: 38px;
+}
+.atom {
+	font-size: 0.6vw;
+	text-align: right;
+}
+.name {
+	font-size: 1.4vw;
+	text-align: center;
+	font-weight: bold;
+}
+.nbr {
+	font-size: 0.6vw;
+	text-align: left;
+}
+h1 {
+	color: white;
+	font-size: 2vw;
+	text-align: center;
+}

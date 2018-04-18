@@ -1,0 +1,45 @@
+.categories {
+	background-color: #80f2dd;
+	text-align: center;
+    margin: 0;
+    margin-top: 20px;
+	font-size: 200%;
+	color: #5636a0;
+}
+.menu {
+	display: inline-flex;
+    flex-direction: column;
+    float: left;
+    width: 400px;
+
+}
+
+.articles {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px;
+    margin-top: 20px;
+    color: #5636a0;
+}
+
+.goods {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.cat_name{
+	font-variant-caps: all-petite-caps;
+	font-size: 200%;
+	text-decoration: none;
+}
+
+.button {
+	background-color: #80f2dd;
+}
+
+.name{
+	font-family: Helvetica;
+}

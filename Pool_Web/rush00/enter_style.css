@@ -1,0 +1,50 @@
+.enter_form {
+	width:450px;
+	height:550px;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	background: #80F2DD;
+	position: relative;
+}
+
+.form_register {
+	width:450px;
+	top: 50px;
+	position: absolute;
+	text-align: center;
+}
+
+.form_enter {
+	width:450px;
+	top: 100px;
+	position: absolute;
+	text-align: center;
+}
+
+.table {
+	width: 250px;
+	height: 28px;
+	font-size: 13px;
+}
+
+.butten {
+	height: 28px;
+	width: 135px;
+	border: 1px solid;
+	border-color: rgb(167, 164, 165);
+	background-color: rgb(228, 228, 228);
+	font-size: 13px;
+	font-family: arial;
+	border-radius: 2px;
+}
+
+.header3 {
+	font-size: 25px;
+}
+
+.error {
+	height:  5px;
+	color: red;
+}

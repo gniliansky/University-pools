@@ -1,0 +1,1 @@
+SELECT count(*) AS 'nb_short-films' FROM db_vgnylyan.film WHERE duration <= 42;

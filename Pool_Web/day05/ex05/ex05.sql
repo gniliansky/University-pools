@@ -1,0 +1,1 @@
+DELETE FROM db_vgnylyan.ft_table  WHERE id < 6;

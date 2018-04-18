@@ -1,0 +1,38 @@
+.options{
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 100px;
+}
+
+.hello{
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 300px;
+	font-size: 250%;
+    font-family: Helvetica;
+}
+
+.logout_admin{
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 100px;
+	background-color: no;
+	
+}
+
+button{
+	text-decoration: none;
+	position: relative;
+ 	background-color: no;
+	border: 5px solid;
+	text-align: center;
+	width: 500px;
+	height: 100px;
+	font-size: 250%;
+    font-family: Helvetica;
+    color: white;
+    background-color: #80f2dd;
+}
